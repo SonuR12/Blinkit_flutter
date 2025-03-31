@@ -125,11 +125,11 @@ class LoginScreen extends StatelessWidget {
 
           // BlinkitIcon
           Positioned(
-            top: MediaQuery.of(context).size.height / 2 - 70,
-            left: MediaQuery.of(context).size.width / 2 - 75,
+            top: MediaQuery.of(context).size.height / 2 - 60,
+            left: MediaQuery.of(context).size.width / 2 - 60,
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(30,), // Adjust radius as needed
-              child: UiHelper.CustomImage(img: "blinkitIcon.png"),
+              borderRadius: BorderRadius.circular(0), // Adjust radius as needed
+              child: Image.asset("assets/images/blinkitIcon.png", height: 120,width: 120,),
             ),
           ),
         ],
