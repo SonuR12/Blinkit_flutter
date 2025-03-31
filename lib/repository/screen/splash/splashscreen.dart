@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:ecomm_flutter/repository/screen/splash/loginscreen.dart';
+import 'package:ecomm_flutter/repository/screen/login/loginscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:ecomm_flutter/domain/constants/appcolors.dart';
 import 'package:ecomm_flutter/repository/widgets/uihelper.dart';

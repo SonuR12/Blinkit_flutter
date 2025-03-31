@@ -1,3 +1,4 @@
+import 'package:ecomm_flutter/repository/screen/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:ecomm_flutter/repository/screen/splash/splashscreen.dart';
 
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Splashscreen(),
       // home: SplashScreen(),
+      // home: HomePage(),
     );
   }
 }

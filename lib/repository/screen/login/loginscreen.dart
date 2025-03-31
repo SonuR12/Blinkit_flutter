@@ -1,4 +1,5 @@
 import 'package:ecomm_flutter/domain/constants/appcolors.dart';
+import 'package:ecomm_flutter/repository/screen/mainScreen/ScreenSkeleton.dart';
 import 'package:ecomm_flutter/repository/widgets/uihelper.dart';
 import 'package:flutter/material.dart';
 
@@ -54,7 +55,9 @@ class LoginScreen extends StatelessWidget {
                           height: 50,
                           width: 400,
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>ScreenSkeleton()));
+                            },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.red,
                               shape: RoundedRectangleBorder(
@@ -69,15 +72,16 @@ class LoginScreen extends StatelessWidget {
                                 UiHelper.ContextText(
                                   text: "Login with",
                                   color: Colors.white,
-                                  fontweight: FontWeight.normal,
+                                  fontweight: FontWeight.bold,
                                   fontsize: 14,
                                 ),
                                 SizedBox(width: 6),
                                 UiHelper.ContextText(
                                   text: "Gmail",
                                   color: Colors.white,
-                                  fontweight: FontWeight.bold,
-                                  fontsize: 14,
+                                  fontweight: FontWeight.normal,
+                                  fontfamily: "bold",
+                                  fontsize: 18,
                                 ),
                               ],
                             ),
@@ -118,13 +122,13 @@ class LoginScreen extends StatelessWidget {
               ),
             ],
           ),
+
+          // BlinkitIcon
           Positioned(
             top: MediaQuery.of(context).size.height / 2 - 70,
             left: MediaQuery.of(context).size.width / 2 - 75,
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(
-                30,
-              ), // Adjust radius as needed
+              borderRadius: BorderRadius.circular(30,), // Adjust radius as needed
               child: UiHelper.CustomImage(img: "blinkitIcon.png"),
             ),
           ),
