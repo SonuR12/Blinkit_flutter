@@ -4,7 +4,7 @@ A clean and functional Flutter frontend clone of the Blinkit (formerly Grofers) 
 
 ## 📱 Screenshots
 
-![image]()
+![image](https://github.com/SonuR12/Blinkit_flutter/blob/main/assets/blinkit_demo.png)
 
 
 ---
