@@ -35,6 +35,7 @@ A clean and functional Flutter frontend clone of the Blinkit (formerly Grofers) 
 
 ---
 
+```bash
 Blinkit_flutter/
 ├── assets/
 │   ├── images/              # All static images (e.g. products, logos)
@@ -72,6 +73,8 @@ Blinkit_flutter/
 ├── pubspec.yaml             # Flutter dependencies and assets
 ├── README.md                # Project README
 └── screenshots/             # Screenshots for documentation
+
+```
  ---
 
 ## ▶️ Getting Started
